@@ -11,6 +11,3 @@ principais de CSS. A ideia do projeto é fazer uma landing page de 4 areas, usan
 4. Convite com um sign-up.
 
 Por fim, o site se fecha com um footer.
-
-Créditos das imagens:
-Apresentação: https://www.hypeness.com.br/2016/09/o-som-e-a-furia-do-disco-nevermind-do-nirvana-25-anos-depois/
