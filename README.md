@@ -14,4 +14,4 @@ Por fim, o site se fecha com um footer.
 
 https://www.theodinproject.com/lessons/foundations-landing-page
 
-Acesse o site pelo Github Pages: (ainda não disponível, website em preparação).
+Acesse o site pelo Github Pages: https://vilasbtw.github.io/odin-landing-page/
