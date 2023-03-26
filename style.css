@@ -32,6 +32,22 @@ ul {
     font-weight: 600;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:visited {
+    color: white;
+}
+
+header a:link {
+    color: white;
+}
+
 main {
     display: flex;
     padding: 45px;
@@ -43,6 +59,7 @@ main {
 .main-text {
     display: flex;
     flex-direction: column;
+    padding-right: 45px;
     color: white;
     font-size: 20px;
 }
@@ -85,7 +102,7 @@ button a:link {
     color: black;
 }
 
-.album-part {
+#album-part {
     text-align: center;
     background-image: linear-gradient(to top, #D2D9B1, #C8D390);
 }
@@ -97,6 +114,7 @@ button a:link {
 .album-covers-container {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 35px;
 }
 
 .albums-title p {
@@ -112,6 +130,76 @@ button a:link {
 .album-text {
     font-weight: 500;
     max-width: 230px;
+}
+
+.quote-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+
+.quote {
+    font-size: 45px;
+    font-weight: 300;
+    max-width: 65%;
+}
+
+.name {
+    margin-left: 44rem;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.invite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: black;
+}
+
+.invite-card {
+    display: flex;
+    padding: 30px;
+    background-color: yellow;
+    border-radius: 10px;
+    gap: 25px;
+}
+
+.invite-text-title {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.invite-button {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.invite-button button {
+    border: 2px solid black;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    padding: 45px;
+    background-color: rgba(0, 0, 0, 0.986);
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:link {
+    color: white;
 }
 
 @media (max-width: 895px) {
@@ -156,5 +244,25 @@ button a:link {
         flex-direction: column;
         align-items: center;
         gap: 25px;
+
     }
+
+    .quote {
+        font-size: 30px;
+    }
+
+    .name {
+        margin: 0;
+   }
+
+   .invite-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 85%;
+   }    
+
+   .invite-button button {
+    padding: 6px;
+   }
 }
